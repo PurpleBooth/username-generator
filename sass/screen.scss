@@ -1,0 +1,48 @@
+@import "compass/reset";
+@import "compass/css3";
+
+@import "partials/colors";
+@import "partials/fonts";
+
+body {
+  background-color: $darkGray;
+  font-family: $silverleaf;
+  color: $lightBlue;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 10em;
+  margin-top: 0.25em;
+  @include text-shadow(rgba($black, 0.2) 10px 10px 0);
+}
+
+body div div ul {
+  display: inline-block;
+}
+
+.outer-center {
+  float: right;
+  right: 50%;
+  position: relative;
+}
+.inner-center {
+  float: right;
+  right: -50%;
+  position: relative;
+}
+.clear {
+  clear: both;
+}
+
+.wordlists ul {
+  margin: 0em 2em;
+  font-size: 3em;
+}
+
+.wordlists .inner-center {
+  margin: 2em 0em;
+  padding: 2em 0em;
+  border-top: 3px $lightGray solid;
+  border-bottom: 3px $lightGray solid;
+}

@@ -1,0 +1,6 @@
+/.idea
+/.vagrant/
+/vendor/
+/composer.phar
+/.sass-cache/
+*~

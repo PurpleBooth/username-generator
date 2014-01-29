@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Username Generator</title>
+    <meta name="description" content="Generates Usernames">
+    <meta name="author" content="Billie Alice Thompson (Purple Booth)">
+
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<h1><?php echo htmlspecialchars($primaryWord) ?></h1>
+<div class="wordlists outer-center">
+    <div class="inner-center">
+        <?php foreach($wordLists as $wordList) : ?>
+            <ul>
+                <?php foreach($wordList as $word) : ?>
+                    <li><?php echo htmlspecialchars($word) ?></li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endforeach; ?>
+    </div>
+</div>
+<div class="clear"></div>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="/javscripts/scripts.js"></script>
+</body>
+</html>

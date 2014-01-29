@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'wg_silverleafwg_silverleaf';
+  src: url('/fonts/wg_silverleaf-webfont.eot');
+  src: url('/fonts/wg_silverleaf-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/wg_silverleaf-webfont.woff') format('woff'),
+  url('/fonts/wg_silverleaf-webfont.ttf') format('truetype'),
+  url('/fonts/wg_silverleaf-webfont.svg#wg_silverleafwg_silverleaf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+$silverleaf : 'wg_silverleafwg_silverleaf';

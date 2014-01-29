@@ -1,0 +1,15 @@
+{
+    "name": "purplebooth/username-generator",
+    "description": "Username generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billie Alice Thompson",
+            "email": "billie@billiecodes.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.1",
+        "gnugat/PronounceableWord": "*"
+    }
+}
