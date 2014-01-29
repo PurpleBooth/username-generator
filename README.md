@@ -3,7 +3,7 @@ username-generator
 
 I wanted to try out google appengine with php, so I made this simple app to run on it.
 
-See it ad https://username-generator.appspot.com
+See it at https://username-generator.appspot.com
 
 
 To deploy it I ran
